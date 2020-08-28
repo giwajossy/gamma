@@ -11,7 +11,7 @@ A responsive Website for an imaginary fast food joint - written in HTML, CSS, an
 
 ### Standard Commit Message Style. ✍️
 - Prefix commit messages with either **Feat:** or **Chore:** depending on your update.
-- For instance; _Feat: Create carousel_ or _Chore: Rename menu link_.
+- For instance; **_Feat: Create carousel_** or **_Chore: Rename menu link_**.
 
 
 ### Resources 🌎
