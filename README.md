@@ -1,6 +1,7 @@
 # Project Gamma 📽️
 
-A responsive Website for a hypothetical fast food joint to be written in Pure HTML, CSS, and VanillaJS
+A responsive Website for a hypothetical fast food written in HTML, CSS, and VanillaJS.
+[Preview Website] (https://buildgamma.netlify.app)
 
 
 ### Current File Tree 🗃️
@@ -11,3 +12,8 @@ A responsive Website for a hypothetical fast food joint to be written in Pure HT
 ### Standard Commit Message Style. ✍️
 - We will prefix our Commit Messages with either **Feat:** or **Chore:** depending on the update.
 - For instance; _Feat: Create carousel_ or _Chore: Rename menu link_.
+
+
+
+
+- By [Zayne] (https://github.com/Tijani-zainab) and [Jossy] (https://github.com/giwajossy)
