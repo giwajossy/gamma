@@ -4,8 +4,8 @@ A responsive Website for a hypothetical fast food joint to be written in Pure HT
 
 
 ### Current File Tree 🗃️
-* assets > css > style.css  ||  js >> app.js  ||  images
-* index.html
+* **assets** > **css** > _style.css_  ||  **js** > _app.js_  ||  **images**
+* _index.html_
 
 
 ### Standard Commit Message Style. ✍️
