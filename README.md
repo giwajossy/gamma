@@ -10,7 +10,7 @@ A responsive Website for a hypothetical fast food joint - written in HTML, CSS, 
 
 
 ### Standard Commit Message Style. ✍️
-- We will prefix our Commit Messages with either **Feat:** or **Chore:** depending on the update.
+- Prefix commit messages with either **Feat:** or **Chore:** depending on your update.
 - For instance; _Feat: Create carousel_ or _Chore: Rename menu link_.
 
 
@@ -21,4 +21,5 @@ A responsive Website for a hypothetical fast food joint - written in HTML, CSS, 
 * **Copyright-free Images**: [Pexels](https://pexels.com) and [Pixabay](https://pixabay.com).
 
 
-- By [Zayne](https://github.com/Tijani-zainab) 👧🏾 and [Jossy](https://github.com/giwajossy) 👨🏾‍🦱
+
+##### By [Zayne](https://github.com/Tijani-zainab) 👧🏾 and [Jossy](https://github.com/giwajossy) 👨🏾‍🦱
