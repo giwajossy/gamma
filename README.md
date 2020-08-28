@@ -1,6 +1,6 @@
 # Project Gamma 📽️
 
-A responsive Website for a hypothetical fast food joint - written in HTML, CSS, and VanillaJS.
+A responsive Website for an imaginary fast food joint - written in HTML, CSS, and VanillaJS.
 [Preview Website](https://buildgamma.netlify.app) 🔗
 
 
@@ -22,4 +22,5 @@ A responsive Website for a hypothetical fast food joint - written in HTML, CSS, 
 
 
 
-##### By [Zayne](https://github.com/Tijani-zainab) 👧🏾 and [Jossy](https://github.com/giwajossy) 👨🏾‍🦱
+
+#### By [Zayne](https://github.com/Tijani-zainab) 👧🏾 and [Jossy](https://github.com/giwajossy) 👨🏾‍🦱
