@@ -4,3 +4,180 @@
     font-family: 'PT Serif', serif;
     font-family: 'PT Serif Caption', serif; 
 */
+
+
+body {
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    font-family: 'PT Serif Caption', serif;
+}
+
+:root {
+    --white: #FFFFFF;
+    --primary-color: #f53b57;
+    --black: #000000;
+}
+
+/* Title */
+
+#title {
+    /* background-image: url("..assets/images/banner.jpg"); */
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 572px;
+	z-index: 10;
+	top: 53;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+    /* background: linear-gradient(to right white, black) */
+}
+
+.navbar {
+    padding: 0 15%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #f53b57;
+}
+
+.nav-item {
+    display: inline-block;
+}
+.nav-link {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #f53b57;
+}
+
+.banner {
+    position: absolute;
+    right: 0;
+    padding: 7% 15% 0;
+    line-height: 1.5;
+}
+
+.banner h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.banner span {
+    color: #f42544;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.6rem 1.8rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-dark {
+    background-color: #f53b57;
+    border: 1px solid #f53b57;
+    margin-right: 2%;
+}
+
+.btn-dark:hover {
+    background-color: #f42544;
+}
+
+.btn-light {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+.btn-light:hover {
+    background-color: #ffffff;
+    color: #f53b57;
+}
+
+.seeding { 
+    color: #ffffff;
+}
+
+/* about-section */
+.desc {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.meal-icon {
+    width: 7%;
+}
+
+.desc h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.desc p {
+    color: #8f8f8f;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* testimonial */
+
+#testimonial {
+    text-align: center;
+    background-color: #f53b57;
+    color: #ffffff;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.carousel-item h2 {
+    font-size: 1.7rem;
+}
+
+#press {
+    background-color: #f53b57;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+} 
+
