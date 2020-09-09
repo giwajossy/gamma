@@ -71,6 +71,7 @@
 
 
         <!-- about -->
+
         <section id="about">
 
             <div class="desc">
@@ -85,53 +86,107 @@
         </section>
         
 
+        <!-- past works -->
+
+        <section id="works">
+
+
+            <div class="slideshow-container">
+                <div class="slides-inner">
+
+                    <div class="slides active">
+                        <img alt="fish-plate" class="work-img" src="assets/images/fish-quality.jpg">
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="slides">
+                        <img alt="fish-plate" class="work-img" src="assets/images/fish-quality.jpg">
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="slides">
+                        <img alt="fish-plate" class="work-img" src="assets/images/fish-quality.jpg">
+                        <div class="text">Caption Text</div>
+                    </div>      
+
+                    <!-- Next and previous buttons -->
+
+                    <a class="prev" onclick="plusSlides(-1)" role="button" data-slide="prev">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)" role="button" data-slide="next">&#10095;</a>
+
+                </div>
+
+            </div>    
+
+            <!-- The dots/circles -->
+
+            <div class="dot-wrap">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+        </section>
+
+
         <!-- testimonial -->
+
         <section id="testimonial">
 
-            <div class="carousel slide">
-                <div class="carousel-inner">
+            <div id="testimonial-slides" class="slideshow-container">
+                <div class="slides-inner">
            
-                   <div class="carousel-item active">
+                   <div class="slides active">
                        <h2>I no longer have to worry about where to get good food. I've found a home away from home at Gamma. Woof.</h2>
-                       <img class="testimonial-img" src="assets/images/lady-img.jpg" alt="lady-profile">
+                       <img class="testimonial-img" src="assets/images/testimony.jpg" alt="lady-profile">
                        <em>Pebbles, New York</em>
            
                    </div>
-                   <!-- <div class="carousel-item">
+                   <div class="slides">
                        <h2 class="testimonial-text">I no longer have to worry about where to get good food. I've found a home away from home at Gamma. Woof.</h2>
-                       <img class="testimonial-img" src="assets/images/lady-img.jpg" alt="lady-profile">
+                       <img class="testimonial-img" src="assets/images/testimony.jpg" alt="lady-profile">
                        <em>Beverly, Illinois</em>
-                   </div> -->
+                   </div>
                   
-                   <a class="carousel-control-prev" href="#testimonial" role="button" data-slide="prev">
-                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                       <span class="sr-only">Previous</span>
-                   </a>
-                   <a class="carousel-control-next" href="#testimonial" role="button" data-slide="next">
-                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                       <span class="sr-only">Next</span>
-                   </a>
+
+                   <!-- Next and previous buttons -->
+
+                   <a class="prev" onclick="plusSlides(-1)" role="button" data-slide="prev">&#10094;</a>
+                   <a class="next" onclick="plusSlides(1)" role="button" data-slide="next">&#10095;</a>
            
                 </div>
            </div>
+
         </section>
 
 
         <!-- press -->
-        <section id="press">
+
+        <!-- <section id="press">
 
             <img class="press-logo" src="assets/images/TechCrunch.png" alt="tc-logo">
             <img class="press-logo" src="assets/images/bizinsider.png" alt="biz-insider-logo">
             <img class="press-logo" src="assets/images/mashable.png" alt="mashable-logo">
-        </section>
+
+        </section> -->
 
 
-        <!-- call to action -->
+        <!-- call-to-action -->
+        
         <section id="cta">
 
         </section>
 
+
+        <!-- footer -->
+
         <section id="footer">
+
+            <i class=" footer-icon fab fa-twitter"></i>
+            <i class=" footer-icon fab fa-facebook-f"></i>
+            <i class=" footer-icon fab fa-instagram"></i>
+            <i class=" footer-icon fas fa-envelope"></i>
+            <p>© Copyright 2020 Gamma </p>
 
         </section>
         
