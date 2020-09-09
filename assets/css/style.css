@@ -128,10 +128,6 @@ body {
 }
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 1747b0e4c84c9e881bf7eafff3ab083d9c6c36a6
 /* about-section */
 .desc {
     text-align: center;
@@ -155,8 +151,6 @@ body {
 }
 
 
-<<<<<<< HEAD
-=======
 /* works */
 .slideshow-container {
     max-width: 1000px;
@@ -198,7 +192,6 @@ body {
 background-color: #f53b57;
 }
 
->>>>>>> 1747b0e4c84c9e881bf7eafff3ab083d9c6c36a6
 
 /* testimonial */
 
@@ -293,7 +286,6 @@ background-color: #f53b57;
 
 .press-logo {
     width: 15%;
-<<<<<<< HEAD
     margin: 20px 20px 50px;
 }
 
@@ -339,13 +331,12 @@ background-color: #f53b57;
     text-decoration: none;
     cursor: pointer;
   }
-=======
-    margin: 50px 20px 20px;
-} 
 
+  
 /* footer */
 
 #footer {
+    margin: 50px 20px 20px;
     text-align: center;
     padding: 7% 15%;
 }
@@ -353,4 +344,3 @@ background-color: #f53b57;
 .footer-icon {
     margin: 20px 10px;
 }
->>>>>>> 1747b0e4c84c9e881bf7eafff3ab083d9c6c36a6
