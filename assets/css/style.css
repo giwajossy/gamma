@@ -6,6 +6,8 @@
 */
 
 
+* {box-sizing:border-box}
+
 body {
     margin: 0;
     font-family: 'PT Serif', serif;
@@ -24,14 +26,14 @@ body {
     /* background-image: url("..assets/images/banner.jpg"); */
 	background-position: center;
 	background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+  background-size: cover;
+  height: 100vh;
 }
 
 .overlay {
 	position: absolute;
 	width: 100%;
-	height: 572px;
+  height: calc(100% - 53px);
 	z-index: 10;
 	top: 53;
 	left: 0;
@@ -151,26 +153,59 @@ body {
 }
 
 
-/* works */
+/* Works Section */
+
 .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-.slides .work-img {
-    width: 100%;
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
 .text {
-    color: #f2f2f2;
-    font-size: 10px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
+
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
 
 .dot-wrap {
     text-align: center;
@@ -178,18 +213,35 @@ body {
 }
 
 .dot {
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
-  
-.dot:hover {
-background-color: #f53b57;
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.1s;
+  animation-name: fade;
+  animation-duration: 0.2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 
@@ -199,7 +251,6 @@ background-color: #f53b57;
     text-align: center;
     background-color: #f53b57;
     color: #ffffff;
-    padding-bottom: 7%;
 }
 
 .testimonial-img {
@@ -210,7 +261,6 @@ background-color: #f53b57;
 .slides-inner {
     position: relative;
     width: 100%;
-    overflow: hidden;
 }
   
 .slides-inner::after {
@@ -219,7 +269,7 @@ background-color: #f53b57;
     content: "";
 }
 
-.slides.active {
+.slides.testimonial-active {
   display: block;
 }
 
@@ -229,6 +279,7 @@ background-color: #f53b57;
     float: left;
     width: 100%;
     margin-right: -100%;
+    padding: 7% 15%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: -webkit-transform 0.6s ease-in-out;
@@ -237,14 +288,13 @@ background-color: #f53b57;
 }
 
 .slides h2 {
-    margin: 0;
+    margin-top: 0;
     font-size: 2.5rem;
-    line-height: 1.5;
-    padding: 7% 15%; 
+    line-height: 1.5; 
 }
 
-.prev,
-.next {
+.testimonial-prev,
+.testimonial-next {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -263,18 +313,18 @@ background-color: #f53b57;
   transition: opacity 0.15s ease;
 }
 
-.prev:hover,
-.next:hover {
+.testimonial-prev:hover,
+.testimonial-next:hover {
   color: #fff;
   outline: 0;
   opacity: 0.9;
 }
 
-.prev {
+.testimonial-prev {
   left: 0;
 }
 
-.next {
+.testimonial-next {
   right: 0;
 }
 
@@ -346,6 +396,7 @@ background-color: #f53b57;
 }
 
 
+<<<<<<< HEAD
 /* Toggle Button*/
 
 .switch {
@@ -424,3 +475,50 @@ background-color: #f53b57;
     color:white;
     box-shadow:10px 10px 20px #000;
   }
+=======
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ 
+ .banner {
+    padding: 15% 15% 0;
+    line-height: 1.5;
+}
+
+.banner h1 {
+    font-size: 6rem;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+  /* For mobile phones: */
+
+ .banner {
+    padding: 15% 15% 0;
+    line-height: 1.5;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+}
+
+.slides h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    line-height: 1.5; 
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+#footer {
+  font-size: 0.7rem;
+}
+
+.meal-icon {
+    width: 12%;
+}
+
+}
+>>>>>>> b1d9064895cf1e1fef3b24907506a6967e910682
