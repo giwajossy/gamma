@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Darkmode
 
 const darkToggle = document.querySelector('.switch');
@@ -32,7 +31,6 @@ span.onclick = function() {
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
-=======
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -68,6 +66,5 @@ function myFunction() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
->>>>>>> b1d9064895cf1e1fef3b24907506a6967e910682
   }
 }
