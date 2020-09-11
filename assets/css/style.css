@@ -474,48 +474,54 @@ body {
     color:white;
     box-shadow:10px 10px 20px #000;
   }
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
  
- .banner {
-    padding: 15% 15% 0;
-    line-height: 1.5;
-}
+    .banner {
+        padding: 15% 15% 0;
+        line-height: 1.5;
+    }
 
-.banner h1 {
-    font-size: 6rem;
-}
+    .banner h1 {
+        font-size: 6rem;
+    }
 
 }
 
 @media only screen and (max-width: 360px) {
   /* For mobile phones: */
 
- .banner {
-    padding: 15% 15% 0;
-    line-height: 1.5;
-}
+    .banner {
+        padding: 15% 15% 0;
+        line-height: 1.5;
+    }
 
-.banner h1 {
-    font-size: 2.5rem;
-}
+    .banner h1 {
+        font-size: 2.5rem;
+    }
 
-.slides h2 {
-    margin-top: 0;
-    font-size: 1.5rem;
-    line-height: 1.5; 
-}
+    .slides h2 {
+        margin-top: 0;
+        font-size: 1.5rem;
+        line-height: 1.5; 
+    }
 
-.btn {
-    margin-top: 20px;
-}
+    .btn {
+        margin-top: 20px;
+    }
 
-#footer {
-  font-size: 0.7rem;
-}
+    #footer {
+    font-size: 0.7rem;
+    }
 
-.meal-icon {
-    width: 12%;
-}
+    .meal-icon {
+        width: 12%;
+    }
 
 }
