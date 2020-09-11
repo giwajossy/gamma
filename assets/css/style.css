@@ -396,7 +396,6 @@ body {
 }
 
 
-<<<<<<< HEAD
 /* Toggle Button*/
 
 .switch {
@@ -475,7 +474,6 @@ body {
     color:white;
     box-shadow:10px 10px 20px #000;
   }
-=======
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
  
@@ -521,4 +519,3 @@ body {
 }
 
 }
->>>>>>> b1d9064895cf1e1fef3b24907506a6967e910682
