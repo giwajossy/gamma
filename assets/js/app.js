@@ -33,7 +33,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-  
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -72,3 +72,10 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+
+
+
+
+
+
