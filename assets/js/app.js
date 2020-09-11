@@ -1,3 +1,13 @@
+// Darkmode
+
+const darkToggle = document.querySelector('.switch');
+const checkbox = document.querySelector('input[type="checkbox"]');
+
+darkToggle.addEventListener('click', ()=>{
+  checkbox.checked ? document.body.classList.add('dark-mode') : document.body.classList.remove('dark-mode');
+});
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
