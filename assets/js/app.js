@@ -33,6 +33,11 @@ window.onclick = function(event) {
     modal.style.display = "none";
 var slideIndex = 1;
 showSlides(slideIndex);
+  }
+
+
+
+
 
 // Next/previous controls
 function plusSlides(n) {
