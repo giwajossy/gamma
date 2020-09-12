@@ -14,7 +14,9 @@ body {
     font-family: 'PT Serif Caption', serif;
 }
 
-/* When dark-mode is active*/
+
+
+/* When dark-mode is active - START*/
 body.dark-mode{
     background:#242424;
 }
@@ -36,12 +38,27 @@ body.dark-mode .overlay .banner .container{
 }
 
 
+body.dark-mode .overlay {
+    background:rgba(0, 0, 0, 0.9);
+    color:white;
+}
+
+
+body.dark-mode #testimonial {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+}
+
+/* When dark-mode is active - ENDS*/
+
 
 :root {
     --white: #FFFFFF;
     --primary-color: #f53b57;
     --black: #000000;                                                                                                                                                                                                                                
 }
+
 
 /* Title */
 
@@ -153,6 +170,9 @@ body.dark-mode .overlay .banner .container{
 }
 
 
+
+
+
 /* about-section */
 .desc {
     text-align: center;
@@ -174,6 +194,10 @@ body.dark-mode .overlay .banner .container{
     font-size: 1.4rem;
     line-height: 1.7;
 }
+
+
+
+
 
 
 /* Works Section */
@@ -266,6 +290,9 @@ body.dark-mode .overlay .banner .container{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
 
 
 /* testimonial */
@@ -562,7 +589,7 @@ input[type=text], select, textarea{
 
 
 
-/* Mobile View for name */
+/* Mobile View */
 @media screen and (max-width: 600px) {
 
     .overlay .banner h1 {
@@ -573,31 +600,6 @@ input[type=text], select, textarea{
 
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
