@@ -47,7 +47,7 @@ body.dark-mode .overlay .banner .container{
 
 #title {
     /* background-image: url("..assets/images/banner.jpg"); */
-	background-position: center;
+    background-position: center;
 	background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -56,7 +56,7 @@ body.dark-mode .overlay .banner .container{
 .overlay {
 	position: absolute;
 	width: 100%;
-  height: calc(100% - 53px);
+    height: calc(100% - 53px);
 	z-index: 10;
 	top: 53;
 	left: 0;
@@ -503,60 +503,76 @@ input[type=text], select, textarea{
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-  }
-  
-  /* Style the label to display next to the inputs */
-  label {
+}
+
+    /* Style the label to display next to the inputs */
+    label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-  }
-  
-  /* Style the submit button */
-  input[type=submit] {
-    background-color: #4CAF50;
+    }
+
+    /* Style the submit button */
+    input[type=submit] {
+    background-color: #f42544;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     float: right;
-  }
-  
-  /* Style the container */
-  .banner .container {
+    margin-top: 2%;
+    }
+
+    /* Style the container */
+    .banner .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
-  
-  /* Floating column for labels: 25% width */
-  .col-25 {
+    }
+
+    /* Floating column for labels: 25% width */
+    .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
-  }
-  
-  /* Floating column for inputs: 75% width */
-  .col-75 {
+    }
+
+    /* Floating column for inputs: 75% width */
+    .col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
     }
-  }
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    }
+
+
+
+
+/* Mobile View for name */
+@media screen and (max-width: 600px) {
+
+    .overlay .banner h1 {
+
+        font-size: 2rem;
+
+    }
+
+    
+}
 
 
 
