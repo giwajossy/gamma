@@ -428,8 +428,8 @@ body.dark-mode #testimonial {
     width: 60px;
     height: 28px;
     right: 20px;
-    /* top: 13px;  */
-    top: 50%; 
+    top: 13px; 
+    /* top: 50%;  */
   }
   
   /* Hide default HTML checkbox */
