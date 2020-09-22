@@ -427,8 +427,9 @@ body.dark-mode #testimonial {
     display: flex;
     width: 60px;
     height: 28px;
-    left: 20px;
-    bottom: 13px; 
+    /* left: 20px; */
+    left: 35%;
+    top: 13px; 
     /* top: 50%;  */
   }
   
