@@ -8,6 +8,21 @@ darkToggle.addEventListener('click', ()=>{
 });
 
 
+
+/* Mobile Menu */
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "navbar-nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -33,6 +48,8 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -64,18 +81,11 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-function myFunction() {
-  var x = document.getElementById("navbar");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
-
-
-
-
-
-
+// function myFunction() {
+//   var x = document.getElementById("navbar");
+//   if (x.style.display === "block") {
+//     x.style.display = "none";
+//   } else {
+//     x.style.display = "block";
+//   }
+// }

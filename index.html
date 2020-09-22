@@ -23,7 +23,11 @@
 
         <!--font-awesome link-->
         <script src="https://kit.fontawesome.com/cc2a17cc66.js" crossorigin="anonymous"></script>
+
         
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                 -->
     </head>
 
     <body>
@@ -43,7 +47,7 @@
 
                 <div class="navbar-wrap">
 
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav" id="myTopnav">
                         <li class="nav-item">
                             <a class="nav-link" href="menu.html">Menu</a>
                         </li>
@@ -51,9 +55,17 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Buzz Us</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
                     </ul>
                     
                 </div>
+
+                
         
             </nav>
 
@@ -64,7 +76,7 @@
                     <button type="button" class="btn btn-dark"> <i class="fas seeding fa-seedling"></i> View Menu</button>
                 </div>
             </div>
-            
+
         </section>
 
 
